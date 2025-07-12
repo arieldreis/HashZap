@@ -5,7 +5,7 @@ import express from 'express';
 const app = express();
 const server = createServer(app);
 const wss = new WebSocketServer({server});
-const PORT = 3010;
+const PORT = 3020;
 
 wss.on('connection', (ws) => {
     console.log("Cliente conectado");
